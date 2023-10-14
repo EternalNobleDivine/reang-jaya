@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reang Jaya | Web Portofolio</title>
+    <!-- Akhir asset bootstrap CSS -->
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/bootstrap/node_modules/bootstrap-icons/bootstrap-icons.svg" />
+    <!-- Mulai asset bootstrap CSS -->
+  </head>
+  <body>
+    <!-- Mulai Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand fw-bold fs-2 text-success shadow-lg-text">Reang Jaya</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navmenu" class="collapse navbar-collapse">
+          <lu class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="" class="nav-link">Layanan</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Tentang</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Hubungi kami</a></li>
+          </lu>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- mulai header -->
+    <section id="home" class="text-center text-sm-center m-5 p-5">
+      <div class="contaier">
+        <div class="d-flex align-items-center">
+          <div class="text-lg-start">
+            <h1><span class="text-primary">Selamat Datang Web Portofolio</span> <span class="text-success d-block fw-bold">Reang Jaya Logistik</span></h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequatur quo asperiores facere. Laborum odio fugiat autem. Ea beatae earum eaque sunt sint corporis recusandae?</p>
+            <button class="btn btn-primary btn-lg opacity-75">Hubungi kami</button>
+          </div>
+          <img class="img-fluit w-50 d-none d-sm-block" src="asset/gambar/1.svg" alt="gambar illustrasi" />
+        </div>
+      </div>
+    </section>
+    <!-- akhir header -->
+    <!-- Mulai Layanan -->
+    <section id="layanan" class="p-5">
+      <div class="container">
+        <div class="text-center p-5 fs-2 fw-bold text-primary-emphasis">Layanan</div>
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-success border-5 border-danger">
+              <div class="p-2 fw-bold fs-2">Akses Real-Time</div>
+              <img src="asset/gambar/layanan1.svg" class="card-img-top p-2" alt="Gambar Layanan" />
+              <div class="card-body">
+                <p class="card-text lead">kemudahan dengan layanan akses secara cepat dan real time posisi dan respon supir cepat dan tanggap</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-info border-5 border-success">
+              <div class="p-2 fw-bold fs-2">24 jam Operasional</div>
+              <img src="asset/gambar/layanan2.svg" class="card-img-top p-2" alt="Gambar Layanan" />
+              <div class="card-body">
+                <p class="card-text lead">flexsibelitas waktu tanpa batas sesuai kebutuhan ketepatan waktu yang relatif cepat dan efisien</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light border-5 border-info">
+              <div class="p-2 fw-bold fs-2">Pasti Sampai</div>
+              <img src="asset/gambar/layanan3.svg" class="card-img-top p-2" alt="Gambar Layanan" />
+              <div class="card-body">
+                <p class="card-text lead">kami memberikan keamanan perjalanan logistik para pelanggan <span class="text-success fw-bold">Reang Jaya </span>sampai tujuan!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Layanan -->
+    <!-- Mulai form sub -->
+    <section id="sub" class="p-5 bg-primary text-light">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3>Berlangganan Reang Jaya Logistik</h3>
+        </div>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Ketik No HP atau E-mail anda" />
+          <button class="btn btn-dark btn-lg">Kirim</button>
+        </div>
+      </div>
+    </section>
+    <!-- akhir form sub -->
+    <!-- Mulai Tentang -->
+    <section id="tentang" class="p-3">
+      <div class="text-center fs-2 fw-bold p-3">Tentang Kami</div>
+      <div class="container align-items-center">
+        <div class="row gx-5">
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img src="asset/gambar/sopir.JPG" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Supir Reang Jaya</h5>
+                <p class="card-text lh-base">supir berpengalaman selama lebih dari 3 tahun lamanya, dan telah mengangkut lebih dari 500 muatan</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldetail_sopir">Detail info</a>
+                <!--mulai supir modal -->
+                <div class="modal fade" id="modaldetail_sopir" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Detail Informasi Supir Reang Jaya</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Nama = Birul Wahidin</p>
+                        <p>Rate = 5.0 ⭐</p>
+                        <p>Agama = islam</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- modal supir akhir -->
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img src="asset/gambar/gambar_truck.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Truck Logistik</h5>
+                <p class="card-text lh-base">Truck Logistik yang selalu dalam kondisi prima saat melakukan pengiriman dan selalu melakukan perawatan setaip hari</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldetail_truck">detail info</a>
+              </div>
+            </div>
+          </div>
+          <!-- mulai Modal Trukc -->
+          <div class="modal fade" id="modaldetail_truck" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Detail Informasi Truck</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Merek = Isuzu</p>
+                  <p>Plat = W 8753 UA</p>
+                  <p>Berat Kosong = 3490 kg</p>
+                  <p>max berat muat = 4500 kg</p>
+                  <p>penumpang = 3 orang</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- akhir modal truck -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Tentang -->
+    <!-- Mulai hubungi -->
+    <section id="hubungi" class="p-5">
+      <div class="text-center p-3 fs-2 fw-bold">Hubungi kami</div>
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md">
+            <h4 class="text-center mb-4">Kontak kami</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"
+                  /></svg
+                ><span class="fw-bold"> Location : </span>Gang Sekolahan RT.008 RW.004 Kec. Menganti Kab. Gresik Jawa Timur, Indonesia
+              </li>
+              <li class="list-group-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  /></svg
+                ><span class="fw-bold"> Mobile Phone : </span> +62 081210958599
+              </li>
+              <li class="list-group-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                  <path
+                    d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"
+                  />
+                  <path
+                    d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"
+                  /></svg
+                ><span class="fw-bold"> E-Mail : </span>h.birul.wahidin@gmail.com
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md"><img class="img-fluit d-none d-lg-block" src="asset/gambar/gambar_hubungi kami.svg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir mulai  -->
+
+    <!-- Mulai footer  -->
+    <footer class="bg-primary text-light text-center p-5">
+      <div class="container">
+        <p class="lead">di buat oleh &copy; Eternal Noble Divine™️</p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!--  -->
+    <!-- Mulai JS -->
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!-- akhir js -->
+  </body>
+</html>
